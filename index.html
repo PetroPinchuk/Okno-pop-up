@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Karta towaru</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="styles.css" rel="stylesheet">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <button data-modal-target="#modal">Karta towaru</button>
+
+  <div class="modal" id="modal">
+    
+      <div class="left-column">
+          <div class="slider-prev"><img src="img/left-arrow.svg" alt="Cofnij"></div>
+          <div class="slider-next"><img src="img/right-arrow.svg" alt="Dalej"></div>
+          <div class="slider">
+            <div class="slider-line">
+              <img src="img/img1.png" alt="Konsola-1">
+              <img src="img/img2.png" alt="Konsola-2">
+              <img src="img/img3.png" alt="Konsola-3">
+            </div>
+          </div>
+      </div>
+
+      <div class="right-column">
+        <div class="product-header">
+          <div class="title">Konsola MICROSOFT XBOX ONE S 500GB + FIFA 19</div>
+          <div class="close-button" data-close-button>
+            <img src="img/close.png" alt="Zamknij">
+          </div>
+        </div>
+
+        <div class="product-price">
+          <span>125,00 zł</span>
+        </div>
+
+          <div class="product-size">
+            <span>Rozmiar:</span>
+            <div id="size-choose">
+              <div class="btn active">Ram 32 GB</div>
+              <div class="btn">Ram 64 GB</div>
+              <div class="btn">Ram 96 GB</div>
+            </div>
+          </div>
+
+          <div class="product-color">
+            <span>Wariant:</span>
+            <div class="color-choose">
+              <select name="color" id="color">
+                <option value="black">Czarny</option>
+                <option value="white">Biały</option>
+                <option value="silver">Srebrny</option>
+              </select>
+            </div>
+          </div>
+
+        <div class="delivery-info">
+          <div class="availability">
+            <img src="img/ok.png">
+            <span>Produkt dostępny</span>
+          </div>
+
+          <div class="delivery-time-tool">
+            <img src="img/delivery-time.png">
+            <div class="delivery-time-info">
+              <span>Możemy wysłać już dzisiaj!</span>
+              <a href="">Sprawdż czas i koszty wysyłki</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-order">
+          <div class="product-count">
+            <div class="minus">-</div>
+            <div class="count">1</div>
+            <div class="plus">+</div>
+          </div>
+          <a href="#" class="cart-btn">Dodaj do koszyka</a>
+        </div>
+
+      </div>
+  </div>
+  <div id="overlay"></div>
+</body>
+</html>
