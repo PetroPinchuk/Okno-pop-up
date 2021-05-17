@@ -8,7 +8,7 @@ Okno prezentuje informacje o produkcie z następującymi funkcjonalnościami / z
 - Pop-up jest wyśrodkowany względem okna przeglądarki.
 - Lewa część to galeria zdjęć z opcją przełączaniem się między zdjęciami.
 - Prawa część to formularz zakupowy.
-- 
+
 W ramach opcji wyboru: wybór rozmiaru i wariantu kolorystycznego.
 
 Okno pop-up jest dostosowane do różnych urządzeń (RWD, „Mobile-First")
